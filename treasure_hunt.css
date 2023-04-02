@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    
+}
+
+h1 {
+    text-shadow: 0 06px black;
+    color:gold;
+}
+
+p {
+    font-size: 25PX;
+}
+
+ul {
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 0 03px black;
+    border-style:dotted;
+    border-color: black;
+
+}
+
+table {
+    width:"100%";
+    border-color: rgb(26, 114, 4);
+}
+
+td {
+    padding: 0.5rem;
+    width: 100px;
+    height: 30px;
+}
+
+#gameboard {
+    display: flex;;
+    justify-content: center;
+    background-color: bisque;
+    width: 50%;
+    margin: auto;
+}
+
+body {
+    background-color:navy;
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/19/06/04/map-6948875_1280.png");
+}
+
+footer {
+    font-weight: bold;
+}
+
+h3 {
+    color: gold;
+    text-shadow: 0 03px black;
+
+}

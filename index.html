@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Treasure Hunt Challenge</title>
+    <link rel="icon" type="image/x-icon" href="young-pirate-bw.svg" />
+    <link rel="stylesheet" href="treasure_hunt.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Treasure Hunt Game</h1>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDXs0Sbzv9qt0MlUloFPkIgoggLJfNpDXG7Q&usqp=CAU"
+      alt="pirate chest"
+    />
+    <h3>Game Rules:</h3>
+    <ul>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you lose</li>
+      <li>If click on the treasure, you win</li>
+    </ul>
+    <h5>Click Counter : <span id="clicks">0</span></h5>
+    <table id="gameboard" border="1">
+      <tr>
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+        <td id="3" onclick="treasure(3)">?</td>
+      </tr>
+      <tr>
+        <td id="4" onclick="treasure(4)">?</td>
+        <td id="5" onclick="treasure(5)">?</td>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+      </tr>
+      <tr>
+        <td id="8" onclick="treasure(8)">?</td>
+        <td id="9" onclick="treasure(9)">?</td>
+        <td id="10" onclick="treasure(10)">?</td>
+        <td id="11" onclick="treasure(11)">?</td>
+      </tr>
+      <tr>
+        <td id="12" onclick="treasure(12)">?</td>
+        <td id="13" onclick="treasure(13)">?</td>
+        <td id="14" onclick="treasure(14)">?</td>
+        <td id="15" onclick="treasure(15)">?</td>
+      </tr>
+    </table>
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer>
+      &copy; Ricky, Eric & Paul <br />
+      <a href="https://www.youtube.com/watch?v=SC4xMk98Pdc" target="_blank"
+        >Congrats</a
+      >
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
